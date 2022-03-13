@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: black;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+     <table>
+         <caption>População das  unidades federativas</caption>
+         <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>São paul</td>
+                <td class="num">41 262 199</td>
+            </tr>
+            <tr> 
+                <td> Minas Gerais</td>
+                <td class="num">19 597 330</td>
+            </tr>
+            <tr> 
+                <td>Rio de Janeiro</td>
+                <td class="num">15 989 929</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 016 906</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">10 444 526</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 693 929</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 674 793</td>
+            </tr>
+            <tr>
+                <td>ceará</td>
+                <td class="num">9 240 580</td>
+            </tr>
+            <tr>
+                <td>pará</td>
+                <td class="num">8 777 124</td>
+            </tr>
+            <tr>
+                <td>santa catatina</td>
+                <td class="num">7 338 473</td>
+            </tr>
+            <tr>
+                <td>goias</td>
+                <td class="num">7 206 589</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 153 262</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 269 995</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3 514 952</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 766 528</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 035 122</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="num">3 168 027</td>
+            </tr>
+            <tr>
+                <td> Alagoas</td>
+                <td class="num">3 120 494</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3 118 360</td>
+            </tr>
+            <tr>
+                <td> Distrito Federal</td>
+                <td class="num">2 570 160</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 449 024</td>
+            </tr>
+            <tr>
+                <td> Sergipe</td>
+                <td class="num">2 068 017</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1 562 409</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1 383 445</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">733 559</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">669 526</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">450 479</td>
+            </tr>
+         </tbody>
+         <tfoot>
+            <tr> 
+                <th scope="row"> Total de habitantes</th>
+                <td class="num"><strong>210.147.126</strong></td>
+            </tr>
+         </tfoot>
+     </table>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis molestiae ad totam perspiciatis ab! Laborum enim quo veritatis eaque labore ullam cum, dolorem distinctio explicabo. Commodi nobis reprehenderit id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam hic molestiae ducimus voluptatibus quam id, corrupti impedit explicabo? Quod rem dolorum repellat sint ea voluptatem consequuntur accusantium quos a! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam, eius illum ullam officia dicta cupiditate vero incidunt quis praesentium tenetur optio, inventore voluptatum assumenda pariatur est ad iusto enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo rem alias, atque laborum repellendus. Officia ea perspiciatis, illo facilis rem distinctio modi vel sunt error quod ab ipsam excepturi.</p>
+</body>
+</html>
