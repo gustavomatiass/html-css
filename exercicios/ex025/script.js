@@ -1,0 +1,1 @@
+window.alert('os dados foram enviado')

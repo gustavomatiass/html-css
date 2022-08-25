@@ -8,14 +8,14 @@
 </head>
 <body>
     <h1>teste de formulario</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iuso">Usuario: </label>
-            <input type="text" name="uso" id="iuso">
+            <input type="text" name="uso" id="iuso" required minlength="3" maxlength="15" placeholder="nome">
         </p>
         <p>
            <label for="isen">Senha: </label>
-           <input type="password" name="sen" id="isen">
+           <input type="password" name="sen" id="isen" required minlength="8">
         </p>
         <p>
             <input type="submit" value="Enviar">
