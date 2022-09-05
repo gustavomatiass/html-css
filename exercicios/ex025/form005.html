@@ -9,6 +9,18 @@
 <body>
     <h1>exemplo de formulario</h1>
     <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">ferminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favorito</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">futebol</label><br>
+            <input type="checkbox" name="basq" id="ibas"> <label for="ibas">basquete </label><br>
+            <input type="checkbox" name="cs" id="ics"><label for="ics">cs go </label><br>
+            <input type="checkbox" name="ff" id="iff"><label for="iff"> free fire</label> <br>
+        </fieldset>
 
         <p>
             <input type="submit" value="enviar">
