@@ -1,12 +1,35 @@
 div{
+
+
+    width: 500px;
+    height: 500px;
+
+
+    box-sizing:  border-box;
+
     background-color: blue;
     font-size: 28px;
     color: white;
     text-align: center;
 
-    width: 500px;
-    height: 500px;
+    padding: 100px ;
 
-    padding-top: 10px;
+    border-left: 10px dotted black;
+
+    margin-top: 25px;
+    margin-left: 25px;
+  
+
+ 
+}
+
+section{
+    background-color: yellowgreen;
+
+    width: 500px;
+    height: 200px;
+
+    margin-left: auto;
+
 
 }
